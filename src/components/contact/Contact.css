@@ -1,0 +1,75 @@
+/* Footer Styling */
+.footer {
+    background-color: #F0F7FD; /* Amazon-like dark gray */
+    color: black;
+    padding: 20px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Container */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 40px;
+}
+
+/* Sections */
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+    min-width: 250px;
+}
+
+/* Header of Sections */
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: navy; /* Amazon orange */
+    text-align: left; /* Align the section title left */
+}
+
+/* About Section */
+.footer-section.about p {
+    margin: 0;
+    text-align: left;
+}
+
+/* Contact Section */
+.footer-section.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section.contact li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-section.contact a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-section.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #3a4553; /* Subtle divider */
+    padding-top: 10px;
+    margin-top: 20px;
+    color: rgb(75, 74, 74);
+    font-size: 12px;
+}

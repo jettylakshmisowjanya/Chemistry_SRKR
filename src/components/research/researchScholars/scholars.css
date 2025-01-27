@@ -1,0 +1,34 @@
+.page-main1{
+    display: grid;
+    margin-left:0;
+    grid-template-columns: 350px auto;
+}
+
+.pamain1{
+    margin-top: 70px;
+}
+
+table th{
+    background-color: lavender;
+    
+}
+table td,table th{
+    border: 1px solid black;
+    /* width:100px; */
+            }
+
+@media (max-width:367px) {
+    .page-main1{
+        display: grid;
+        margin-left:0;
+        grid-template-columns: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .page-main1{
+        display: grid;
+        margin-left:0;
+        grid-template-columns: 0 auto;
+    }
+}

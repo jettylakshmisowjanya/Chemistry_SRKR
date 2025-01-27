@@ -1,0 +1,50 @@
+.rights{
+    border: 1px solid rgb(253, 250, 250);
+    width: 260px;
+    margin-left: 0px;
+    padding: 20px 15px;
+    font-size: 18px;
+    background-color: rgb(236, 234, 234);
+    margin-top: 50px;
+    position: fixed;
+
+    top: 88px;
+    bottom: 0px;
+    
+}
+
+.rights div{
+    margin-bottom: 35px;
+}
+
+@media (max-width: 1024px) {
+    .rights{
+        border: 1px solid rgb(253, 250, 250);
+        width: 220px;
+        margin-left: 0px;
+        padding: 20px 15px;
+        font-size: 18px;
+        background-color: rgb(236, 234, 234);
+        margin-top: 50px;
+        position: fixed;
+    
+        top: 78px;
+        bottom: 0px;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .rights{
+        display: none;
+        width: 0;
+    }
+}
+
+@media (max-width:367px) {
+    .rights{
+        display: none;
+        width: 0;
+    }
+}
+

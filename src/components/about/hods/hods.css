@@ -1,0 +1,105 @@
+body{
+    padding-top: 80px;
+}
+.pos{
+    font-weight:normal;
+    line-height: 15px;
+} 
+.round-image{
+    float: left;
+    width:200px;
+    height:100%;
+    object-fit:cover;
+    box-shadow: rgb(5px, 5px, 5px);
+    border-radius: 2px;
+    cursor:pointer;
+    transition: 0.2s ease;
+}  
+.ites{
+    border: 1px solid rgb(217, 207, 207);
+    padding: 40px;
+    border-radius: 15px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.ite h4{   
+    padding: 5px;
+    text-align: center;
+} 
+
+.ite {
+    margin-bottom: 0;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
+    border-radius: 5px;
+    border: solid rgb(147, 146, 146) 2px;
+    height: 300px;
+    width:100%;
+    padding: 10px;
+}
+@media(max-width:768px) {
+    .ites{
+        border: none;
+        padding: 0px;
+        border-radius: 15px;
+        margin:0 auto;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .round-image {
+        width: 100%; 
+        height: 300px;
+        object-fit: cover;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        margin-bottom: 10px;
+    }
+    .ite {
+        box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
+        border-radius: 5px;
+        border: solid rgb(147, 146, 146) 2px; 
+        height: 100%; 
+        width:420px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+}
+@media(max-width:367px) {
+    .ites{
+        border: none;
+        padding: 0px;
+        border-radius: 15px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 55px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .round-image {
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        margin-bottom: 10px;
+    }
+    .ite {
+        margin-bottom: 0;
+        box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
+        border-radius: 5px;
+        border: solid rgb(147, 146, 146) 2px; 
+        min-height: 350px; 
+        width:100%;
+        padding: 10px;
+    }
+
+}

@@ -1,0 +1,129 @@
+
+.heading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+}
+
+.matter {
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #F0F7FD;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 25px;
+    width: 900px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph {
+    margin: 10px;
+    padding:0px;
+    text-align: center;
+    
+}
+
+.empty {
+    margin-bottom: 50px;
+}
+
+body{
+    padding-top: 80px;
+}
+.container {
+width: 60%;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.card-item {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-item img {
+width: 500px;
+object-fit: fill;
+height: 350px;
+margin: 0;
+border-radius: 10px;
+}
+
+.slid{
+    width:650px;
+    margin-top:50px;
+}
+
+@media (max-width:768px) {
+    
+.matter {
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #F0F7FD;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 25px;
+    width: 600px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-item img {
+    width: 500px;
+    object-fit: fill;
+    height: 420px;
+    margin: 0;
+    border-radius: 10px;
+    }
+    .container {
+        width: 60%;
+        max-width: 550px;
+        margin: 0 auto;
+        }
+        .slid{
+            width:550px;
+            margin-top:50px;
+        }
+        body{
+            padding-top: 60px;
+        }
+}
+
+@media (max-width:367px) {
+    
+    .matter {
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: #F0F7FD;
+        border-radius: 10px;
+        padding: 20px;
+        line-height: 25px;
+        width: 300px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .card-item img {
+        width: 300px;
+        object-fit: fill;
+        height: 320px;
+        margin: 0;
+        border-radius: 10px;
+        }
+        .container {
+            width: 60%;
+            max-width: 350px;
+            margin: 0 auto;
+            }
+            .slid{
+                width:350px;
+                margin-top:50px;
+            }
+            body{
+                padding-top: 60px;
+            }
+    }
