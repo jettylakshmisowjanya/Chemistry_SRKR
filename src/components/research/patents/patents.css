@@ -1,35 +1,77 @@
-.pageMain{
+.pageMain {
     display: grid;
-    margin-left:0;
     grid-template-columns: 350px auto;
+    gap: 20px;
+    padding: 20px;
 }
 
-.pamain{
+/* Table Styling */
+.pamain {
     margin-top: 70px;
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
 }
 
-table th{
-    background-color: lavender;
-    
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
 }
-table td,table th{
+
+/* Header Styling */
+table th {
+background-color: lavender;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table Cell Styling */
+table td,
+table th {
     border: 1px solid black;
-    /* width:100px; */
-            }
+    padding: 10px;
+    text-align: left;
+}
 
-@media (max-width:367px) {
-    .pageMain{
-        display: grid;
-        margin-left:0;
+/* Alternating Row Colors */
+table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .pageMain {
         grid-template-columns: 0 auto;
+        padding: 10px;
+    }
+
+    .pamain {
+        margin-top: 30px;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 14px;
     }
 }
 
+@media (max-width: 480px) {
+    .pageMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media (max-width:768px) {
-    .pageMain{
-        display: grid;
-        margin-left:0;
-        grid-template-columns: 0 auto;
+    .pamain {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table th,
+    table td {
+        padding: 6px;
+        font-size: 12px;
+        white-space: nowrap; /* Prevents text wrapping in smaller screens */
     }
 }

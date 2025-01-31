@@ -191,7 +191,7 @@ a{
         line-height: 8px;
         width: 300px;
         grid-template-columns: 1fr;
-        padding: 30px 20px;
+        padding: 30px 10px;
         padding-top: 0;
         grid-column-gap: 20px;
         grid-row-gap: 30px;

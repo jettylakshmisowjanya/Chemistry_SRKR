@@ -6,6 +6,8 @@
 
 .pamain1{
     margin-top: 70px;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+
 }
 
 table th{

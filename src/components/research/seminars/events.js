@@ -322,48 +322,48 @@ border-radius: 10px;
         width: 280px;
         margin-top: 0px; 
         position: relative; 
-        margin-left: 40px;
+        margin-left: 20px;
         
     }
     .sm1{
         top: 120px; 
-        left: 268px;
+        left: 248px;
     }
     .sm2{
         top: 120px; 
-        left: 198px;
+        left: 178px;
     }
     .sm3{
         top: 190px; 
-        left: 268px;
+        left: 248px;
     }
     .sm4{
         top: 190px; 
-        left: 198px;
+        left: 178px;
     }
     .sm5{
         top: 190px; 
-        left: 128px;
+        left: 108px;
     }
     .sm6{
         top: 190px; 
-        left: 58px;
+        left: 38px;
     }
     .sm7{
         top: 260px; 
-        left: 268px;
+        left: 248px;
     }
     .sm8{
         top: 260px; 
-        left: 198px;
+        left: 178px;
     }
     .sm9{
         top: 260px; 
-        left: 128px;
+        left: 108px;
     }
     .sm10{ 
         top: 260px; 
-        left: 58px;
+        left: 38px;
     }
     .small{
         position: absolute;
@@ -387,18 +387,18 @@ border-radius: 10px;
             padding-left: 10px;
             font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;
-            left: 55px;
+            left: 35px;
     }
     .ohead{
         margin-top: 100px;
-        font-size: 20px;
+        font-size: 18px;
                 margin-left:0px;
 
     }
     .semimain{
         line-height: 20px;
         width: 280px;
-        font-size:15px;
+        font-size:13px;
         margin-bottom: 15px;
         margin-left:0px;
     }
@@ -408,6 +408,8 @@ border-radius: 10px;
         margin: 0;
         margin-top: 40px;
         margin-left: 0;
+                border-radius:15px;
+
         }
         
         .card-item {
@@ -415,6 +417,7 @@ border-radius: 10px;
         justify-content: center;
         align-items: center;
         width:300px;
+        border-radius:15px;
         }
         .swip{
  width:300px;

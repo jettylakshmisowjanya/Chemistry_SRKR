@@ -80,6 +80,7 @@ body{
         margin: 0 auto;
         margin-top: 55px;
         display: grid;
+        margin-left: 10px;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
     }

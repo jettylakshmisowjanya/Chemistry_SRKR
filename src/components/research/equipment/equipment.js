@@ -100,7 +100,29 @@ body{
     align-content: center;
     word-wrap: break-word;
 }
+ .equipment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
 
+.equipment-table th,
+.equipment-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.equipment-table th {
+    background-color: lavender;
+  color: black;
+  text-align: center;
+}
+
+.equipment-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
 
 @media (max-width:768px) {
     .rights{
@@ -148,17 +170,18 @@ body{
         p{
             margin-bottom:10px;
         }
-// .val{
-// width:200px;
+
 }
-//         .subrows{
-// width: 320px;
-// }
-// .year{
-//     width: 312px;
-//     padding-left:10px;
-// }
+
+        @media (max-width: 600px) {
+  .equipment-table th,
+  .equipment-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
 }
+
+
 @media (max-width:367px) {
     .rights{
         display: none;
@@ -231,42 +254,41 @@ width: 320px;
             </div>
           </div>
 
-          <div>
-            <div className="year">
-              Equipment:
-            </div>
-            <div className="subrows">
-              <div>Name of the Equipment</div>
-              <div>Quantity</div>
-            </div>
-
-           
-            {[
-              { name: 'UV-Visible Spectrometer', quantity: 1 },
-              { name: 'Muffle Furnace', quantity: 1 },
-              { name: 'Hot Air Oven', quantity: 1 },
-              { name: 'Microwave Oven', quantity: 3 },
-              { name: 'PH Meters', quantity: 2 },
-              { name: 'Conductivity Meters', quantity: 6 },
-              { name: 'Potentiometers', quantity: 6 },
-              { name: 'Catalytic Chamber', quantity: 1 },
-              { name: 'Spin Coater', quantity: 1 },
-              { name: 'Centrifuse', quantity: 1 },
-              { name: 'Rotovapour', quantity: 1 },
-              { name: 'Magnetic Stirrer', quantity: 5 },
-              { name: 'Sonicator', quantity: 1 },
-              { name: 'Digital Balance', quantity: 1 },
-              { name: 'Vacuum Cupboard', quantity: 2 },
-              { name: 'Double Distillation Unit', quantity: 1 },
-              { name: 'Computers', quantity: 3 },
-              { name: 'Printers', quantity: 2 }
-            ].map((item, index) => (
-              <div key={index} className="subrows">
-                <div className='ind'>{item.name}</div>
-                <div className='val'>{item.quantity}</div>
-              </div>
-            ))}
-          </div>
+            <table className="equipment-table">
+  <thead>
+    <tr>
+      <th>Name of the Equipment</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "UV-Visible Spectrometer", quantity: 1 },
+      { name: "Muffle Furnace", quantity: 1 },
+      { name: "Hot Air Oven", quantity: 1 },
+      { name: "Microwave Oven", quantity: 3 },
+      { name: "PH Meters", quantity: 2 },
+      { name: "Conductivity Meters", quantity: 6 },
+      { name: "Potentiometers", quantity: 6 },
+      { name: "Catalytic Chamber", quantity: 1 },
+      { name: "Spin Coater", quantity: 1 },
+      { name: "Centrifuge", quantity: 1 },
+      { name: "Rotovapour", quantity: 1 },
+      { name: "Magnetic Stirrer", quantity: 5 },
+      { name: "Sonicator", quantity: 1 },
+      { name: "Digital Balance", quantity: 1 },
+      { name: "Vacuum Cupboard", quantity: 2 },
+      { name: "Double Distillation Unit", quantity: 1 },
+      { name: "Computers", quantity: 3 },
+      { name: "Printers", quantity: 2 },
+    ].map((item, index) => (
+      <tr key={index}>
+        <td>{item.name}</td>
+        <td>{item.quantity}</td>
+      </tr>
+    ))}
+  </tbody>
+</table> 
         </div>
       </div>
     </div>
@@ -274,3 +296,4 @@ width: 320px;
 };
 
 export default Equipment;
+

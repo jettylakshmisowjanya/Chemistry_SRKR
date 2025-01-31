@@ -6,6 +6,8 @@ import { Link ,useLocation} from 'react-router-dom'
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const location = useLocation();
+
 
     // Toggle menu on hamburger click
     const toggleMenu = () => {
@@ -15,7 +17,6 @@ export const Navbar = () => {
       return location.pathname === path;
     };
     
-    const location = useLocation();
     const isAbout = location.pathname === '/about';
     const isHods = location.pathname === '/hods';
     const aboutClass = isAbout ? 'about-page' : isHods ? 'hods-page' : '';

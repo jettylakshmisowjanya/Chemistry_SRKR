@@ -18,6 +18,8 @@ const Books = () => {
     
     grid-template-columns: auto 1fr;
     gap: 50px;
+        overflow-x: auto; /* Enables horizontal scrolling on small screens */
+
 }
 .imgmain{
     display: flex;
@@ -47,6 +49,7 @@ const Books = () => {
      width: 640px;
      padding-top: 25px;
      margin-left:300px
+
     }
 
     .bsub{

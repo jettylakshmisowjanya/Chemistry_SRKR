@@ -101,62 +101,6 @@ Application Number: 202441071956 A
 </div>
    
 
-{/* <div className='pamain'>
-<div class="year">Research Books Executed:
-</div>
-<table style={{borderCollapse: 'collapse', width: '100%', textAlign: 'left', border: '1px solid black'}}>
-    <thead style={{backgroundColor: '#f2f2f2'}}>
-        <tr>
-            <th >Name of the Author</th>
-            <th >Title of the Book & ISBN no</th>
-            <th >Year of Publication</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Dr. K. Anji Reddy</td>
-            <td >Engineering Chemistry 1</td>
-            <td>2010</td>
-        </tr>
-        <tr>
-            <td ></td>
-            <td>Engineering Chemistry 2</td>
-            <td >2010</td>
-        </tr>
-        <tr>
-            <td ></td>
-            <td>Engineering Chemistry</td>
-            <td>2010</td>
-        </tr>
-        <tr>
-            <td >Dr. K.V. Subba Raju</td>
-            <td >Success Secrets for Engineering Students & 978-81-928134-4-8</td>
-            <td >2010</td>
-        </tr>
-        <tr>
-            <td ></td>
-            <td >Zeroto Hero to Super Hero</td>
-            <td >2014</td>
-        </tr>
-        <tr>
-            <td ></td>
-            <td>Mee Chiunnari oka Medhavi Ela? 978-81-928134-9-3</td>
-            <td>2014</td>
-        </tr>
-        <tr>
-            <td >Dr. B. S. Diwakar</td>
-            <td >Applied Chemistry for Engineering Courses & 978-1-68576-091-5</td>
-            <td >2021</td>
-        </tr>
-        <tr>
-            <td >Dr. P. L. Kishore</td>
-            <td >Applied Analysis & 978-620-2-79764-1</td>
-            <td >2020</td>
-        </tr>
-    </tbody>
-</table>
-</div> */}
-
 
 </div>
     </div>

@@ -66,21 +66,6 @@
     background: linear-gradient(120deg, rgb(155, 216, 240) 1%, rgb(249, 180, 249) 110%);
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    top: 75px;
-    left: 0;
-    right: 0;
-    z-index: 9;
-    background: white;
-    padding: 5px;
-    border-bottom: 1px solid #ddd;
-    flex-wrap: wrap; 
-    text-decoration: none; 
-}
 
 .hov {
     position: absolute;
