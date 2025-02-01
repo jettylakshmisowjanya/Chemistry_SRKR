@@ -71,7 +71,7 @@ body{
     }
 
 }
-@media(max-width:367px) {
+@media(max-width:400px) {
     .ites{
         border: none;
         padding: 0px;
@@ -80,7 +80,7 @@ body{
         margin: 0 auto;
         margin-top: 55px;
         display: grid;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
     }
@@ -98,8 +98,9 @@ body{
         box-shadow: 0 0 10px rgba(128, 128, 128, 0.8);
         border-radius: 5px;
         border: solid rgb(147, 146, 146) 2px; 
-        min-height: 350px; 
+        min-height: 250px; 
         width:100%;
+        /* margin: 0 auto; */
         padding: 10px;
     }
 

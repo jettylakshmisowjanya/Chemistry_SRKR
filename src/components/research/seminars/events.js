@@ -314,7 +314,7 @@ border-radius: 10px;
         }
         
 }
-@media (max-width:367px) {
+@media (max-width:400px) {
     .rights{
         display: none;
     }

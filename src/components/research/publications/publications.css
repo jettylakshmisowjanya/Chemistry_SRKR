@@ -21,7 +21,8 @@ table td,table th{
     /* width:100px; */
             }
 
-@media (max-width:367px) {
+
+@media (max-width:768px) {
     .page-main2{
         display: grid;
         margin-left:0;
@@ -30,7 +31,7 @@ table td,table th{
 }
 
 
-@media (max-width:768px) {
+@media (max-width:400px) {
     .page-main2{
         display: grid;
         margin-left:0;

@@ -61,9 +61,8 @@ const Model = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus1} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-23 REGULATION CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus1Open && (
+<div className='cont3'>
+{isSyllabus1Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -116,6 +115,9 @@ const Model = () => {
               </tbody>
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
       </div>
 
@@ -126,9 +128,8 @@ const Model = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus2} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-20 REGULATION APPLIED CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus2Open && (
+<div className='cont3'>
+{isSyllabus2Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -181,6 +182,9 @@ const Model = () => {
               </tbody>
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
       </div>
 
@@ -190,9 +194,8 @@ const Model = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus3} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-19 REGULATION ENGINEERING CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus3Open && (
+<div className='cont3'>
+{isSyllabus3Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -245,6 +248,9 @@ const Model = () => {
               </tbody>
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+     
         </div>
       </div>
 
@@ -255,9 +261,8 @@ const Model = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus4} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-17 REGULATION ENGINEERING CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus4Open && (
+<div className='cont3'>
+{isSyllabus4Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -310,6 +315,9 @@ const Model = () => {
               </tbody>
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
       </div>
 
@@ -321,9 +329,8 @@ const Model = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus5} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-16 REGULATION CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus5Open && (
+<div className='cont3'>
+{isSyllabus5Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -376,6 +383,9 @@ const Model = () => {
               </tbody>
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+      
         </div>
       </div>
 

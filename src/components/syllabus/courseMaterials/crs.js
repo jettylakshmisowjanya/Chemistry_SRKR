@@ -115,9 +115,8 @@ const Crs = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus1} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-23 REGULATION ENGINEERING CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus1Open && (
+<div className='cont4'>
+{isSyllabus1Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -151,6 +150,9 @@ const Crs = () => {
 
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
       </div>
 
@@ -159,9 +161,8 @@ const Crs = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus2} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-20 REGULATION APPLIED CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus2Open && (
+<div className='cont4'>
+{isSyllabus2Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -196,6 +197,9 @@ const Crs = () => {
 
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
 
 
@@ -204,9 +208,8 @@ const Crs = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus3} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-19 REGULATION ENGINEERING CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus3Open && (
+<div className='cont4'>
+{isSyllabus3Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -232,6 +235,9 @@ const Crs = () => {
 
             </table>
           )}
+</div>
+          {/* Toggle content based on click */}
+        
         </div>
 
         <div style={{ paddingBottom: '10px' }}></div>
@@ -239,9 +245,7 @@ const Crs = () => {
           <p className="para2" id="para2" onClick={toggleSyllabus4} style={{ cursor: 'pointer' }}>
             &ensp;&ensp;↪ &ensp;R-17 REGULATION ENGINEERING CHEMISTRY SYLLABUS AND MODEL PAPERS
           </p>
-
-          {/* Toggle content based on click */}
-          {isSyllabus4Open && (
+<div className='cont4'>      {isSyllabus4Open && (
             <table border="1px" className="table1" >
               <thead>
                 <tr>
@@ -274,7 +278,9 @@ const Crs = () => {
                 </tr>
 
             </table>
-          )}
+          )}</div>
+          {/* Toggle content based on click */}
+    
         </div>
       
 

@@ -332,7 +332,7 @@ padding-left: 5px;
         flex-direction: column;
     }
 }
-@media(max-width:367px){
+@media(max-width:400px){
 
 
 
@@ -395,7 +395,9 @@ margin-top: 0px;
     grid-template-columns: 1fr;
     gap: 50px;
     margin-bottom: 80px;
-    margin-left: 50px;
+}
+.tryysub{
+    margin: 0 auto;
 }
 .crnrs{
     display: grid;
@@ -420,7 +422,7 @@ margin-top: 0px;
     padding: 15px;
 }
 }
-@media(max-width:367px){
+@media(max-width:400px){
 .head {
 text-align: center;
 display: flex;

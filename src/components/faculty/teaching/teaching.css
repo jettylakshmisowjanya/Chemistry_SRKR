@@ -184,7 +184,7 @@ a{
         justify-content: center;
     }
 }
-@media (max-width: 367px) {
+@media (max-width: 400px) {
     .items {
         display: grid;
         text-align: right;
@@ -195,6 +195,7 @@ a{
         padding-top: 0;
         grid-column-gap: 20px;
         grid-row-gap: 30px;
+        margin: 0 auto;
     }
 
     .item {

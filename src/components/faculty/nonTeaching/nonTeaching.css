@@ -132,12 +132,16 @@ a{
 
 }
 
-@media(max-width:367px){
+@media(max-width:400px){
+    .itms
+    {
+        margin: 0 auto;
+    }
     .itm{
     border:solid rgb(147, 146, 146) 2px;
     height: 250px;
     margin-bottom:0;
-    margin-left: 0;
+    /* margin-left: 0; */
     box-shadow: 0 0 10px rgb(128, 128, 128,0.8);
     border-radius: 5px;
     width: 325px;

@@ -259,7 +259,7 @@ border-radius: 10px;
  padding-top:50px;
  }
 }
-@media(max-width:367px)
+@media(max-width:400px)
 {
 .rightss{
     border: 1px solid rgb(253, 250, 250);

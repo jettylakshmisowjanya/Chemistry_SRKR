@@ -18,7 +18,7 @@
     height: 40px;
     text-align: left;
 }
-
+     
 
 .container{
     max-width: 50rem;
@@ -31,7 +31,7 @@
     height: 4.5rem;
     text-align: left;
 }
-.cont2{
+/* .cont2{
     
 
      
@@ -46,7 +46,7 @@
 
     text-align: left;
     position: sticky;
-}
+} */
 
 .table1{
     margin:0 auto;
@@ -102,7 +102,7 @@ a:hover{
 }
 
 
-@media(max-width:367px)
+@media(max-width:400px)
 {
     .headin{
         font-size: 20px;

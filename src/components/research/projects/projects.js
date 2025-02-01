@@ -126,7 +126,7 @@ const Projects = () => {
             }
           }
 
-          @media(max-width: 367px) {
+          @media(max-width: 400px) {
             .year {
               width: 100%;
               margin-top: 0;
