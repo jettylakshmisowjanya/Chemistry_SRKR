@@ -5,6 +5,7 @@ import { Navigation, Pagination } from 'swiper/modules';  // Import Navigation a
 import 'swiper/swiper-bundle.css';
 import books from '../../images/books.jpeg'
 import labs from '../../images/labs-main.webp'
+import abt3 from '../../images/abt3.jpg';
 import l1 from '../../images/l1.jpg'
 import l2 from '../../images/l2.jpg'
 import l4 from '../../images/l4.jpg'
@@ -96,6 +97,10 @@ const Courses = () => {
 .bimg{
  margin-left: 150px;
  }
+ .bimg img{
+  width:200px;
+  height:auto;
+ }
 
 .hev:hover + .val {
     display: block;
@@ -119,32 +124,41 @@ width: 60%;
 max-width: 800px;
 margin: 0 auto;
 }
- .firstimg{
- margin-top:15px;
-//  background-color:blue;
- }
+
 .card-item {
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.card-item img {
+width: 500px;
+object-fit: fill;
+height: 350px;
+margin: 0;
+border-radius: 10px;
+}
+
+.swipe{
+    width:650px;
+    margin-top:50px;
+}
+ .firstimg{
+ margin-top:15px;
+//  background-color:blue;
+ }
+
 .ilab{
 position : relative;
 }
-.card-item img {
-width: 600px;
-height: 350px;
-border-radius: 10px;
-} 
+
 .vbooks{
 text-align:center;
 margin-top:20px;
 margin-right:100px;
 color:blue;
 }
-.swipe{
-width:800px;
-}
+
 .ulf{
  line-height: 30px;
  align-content: center;
@@ -229,31 +243,22 @@ margin-left:25px;
     padding:0;
     }
 
-    .swipe{
-width:650px;
-margin-top:30px;
-}
-
-.container {
-width: 100%;
-max-width: 600px;
-margin: 0 auto;
-}
-
-.card-item {
-display: flex;
-margin:0 auto;
-width:650px;
-margin-right:0px;
-}
-
 .card-item img {
-width: 600px;
-height: 350px;
-// margin:0 auto;
-// margin-right:0px;
-border-radius: 10px;
-} 
+    width: 500px;
+    object-fit: fill;
+    height: 420px;
+    margin: 0;
+    border-radius: 10px;
+    }
+    .container {
+        width: 60%;
+        max-width: 550px;
+        margin: 0 auto;
+        }
+        .swipe{
+            width:550px;
+            margin-top:50px;
+        } 
 
  body{
  padding-top:50px;
@@ -315,9 +320,9 @@ margin-left:25px;
      .cors{
     background-color: white; 
     position: absolute; 
-    top: 1050px; 
+    top: 1165px; 
     width: 245px; 
-    left: 85px; 
+    left: 90px; 
     padding: 15px;
     font-size:12px;
   } 
@@ -339,15 +344,29 @@ margin-left:25px;
     margin:0;
     padding:0;
     }
-    .swipe{
-width:340px;
-}
 
-.card-item img {
-width: 300px;
-height: 250px;
 
-} 
+.bimg img{
+  width:200px;
+  height:auto;
+ }
+
+    .card-item img {
+        width: 300px;
+        object-fit: cover;
+        height: 250px;
+        margin: 0;
+        border-radius: 10px;
+        }
+        .container {
+            width: 60%;
+            max-width: 350px;
+            margin: 0 auto;
+            }
+            .swipe{
+                width:350px;
+                margin-top:50px;
+            }
 
  body{
  padding-top:10px;
@@ -392,9 +411,8 @@ height: 250px;
               </ul>
             </div>
             <div className='bimg'>
-              <img src={books} alt="Books" />
+              <img src={abt3} alt="Books" />
             </div>
-            <div className='vbooks'><Link to={"/books"}>view books here</Link></div>
           </div>
         </div>
       </div>
@@ -416,38 +434,41 @@ height: 250px;
 
         {/* Swiper Slider */}
 
-          <Swiper className='swipe'
-            modules={[Navigation, Pagination]}  // Use modules for Navigation and Pagination
-            loop={true}
-            grabCursor={true}
-            spaceBetween={30}
-            slidesPerView={1}
-            navigation
-            pagination={{ clickable: true }}
-          >
-            <SwiperSlide>
-                <div className='card-item'>
-                <img src={l1} alt="Lab Image 1" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className='card-item'>
-                <img src={l2} alt="Lab Image 1" />
-                </div>
-            </SwiperSlide><SwiperSlide>
-                <div className='card-item'>
-                <img src={l4} alt="Lab Image 1" />
-                </div>
-            </SwiperSlide><SwiperSlide>
-                <div className='card-item'>
-                <img src={l5} alt="Lab Image 1" />
-                </div>
-            </SwiperSlide><SwiperSlide>
-                <div className='card-item'>
-                <img src={l3} alt="Lab Image 1" />
-                </div>
-            </SwiperSlide>
-          </Swiper>
+
+        <Swiper className='swipe'
+                  modules={[Navigation, Pagination]}  // Use modules attribute to add functionalities
+                  loop={true}
+                  grabCursor={true}
+                  spaceBetween={30}
+                  slidesPerView={1}
+                  navigation
+                  pagination={{ clickable: true }}
+                >
+                  <SwiperSlide>
+                    <div className='card-item'>
+                    <img  src={l1} alt="Slide 1" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='card-item'>
+                    <img  src={l2} alt="Slide 1" />
+                    </div>
+                  </SwiperSlide><SwiperSlide>
+                    <div className='card-item'>
+                    <img  src={l4} alt="Slide 1" />
+                    </div>
+                  </SwiperSlide><SwiperSlide>
+                    <div className='card-item'>
+                    <img style={{objectPosition:'top'}}  src={l5} alt="Slide 1" />
+                    </div>
+                  </SwiperSlide><SwiperSlide>
+                    <div className='card-item'>
+                    <img  src={l3} alt="Slide 1" />
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+
+
         </div>
       </div>
 

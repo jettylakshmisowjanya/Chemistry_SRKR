@@ -18,9 +18,9 @@ const Projects = () => {
         {`
           .page-main {
             display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-            margin: 20px;
+    grid-template-columns: 350px auto;
+    gap: 0px;
+  
                 overflow-x: auto; /* Enables horizontal scrolling on small screens */
 
           }
@@ -32,7 +32,7 @@ const Projects = () => {
 
           .lefts {
             display: flex;
-            margin-top: 50px;
+            margin-top: 0px;
             flex-direction: column;
           }
 
@@ -44,11 +44,11 @@ const Projects = () => {
             margin-bottom: 200px;
           }
 
-          .subl {
+          {/* .subl {
             display: grid;
             grid-template-columns: auto 1fr;
             gap: 20px;
-          }
+          } */}
 
           body {
             padding-top: 80px;
@@ -66,7 +66,7 @@ const Projects = () => {
           .subrows {
             display: flex;
             flex-direction: row;
-            gap: 20px;
+            gap: 0px;
             line-height: 25px;
             border: 1px solid grey;
             margin-bottom: 10px;
@@ -153,7 +153,9 @@ const Projects = () => {
       </style>
       <Navbar />
       <div className='page-main'>
-        <Sidebar />
+      <div>
+        <Sidebar/>
+      </div>
         <div className='prjm'>
           <div className='year'>Research Projects Executed:</div>
           <table border='1' style={{ borderCollapse: 'collapse', width: '100%' }}>

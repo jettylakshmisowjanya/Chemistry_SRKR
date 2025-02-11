@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 350px auto;
     gap: 20px;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* Table Styling */

@@ -101,7 +101,7 @@ body{
     word-wrap: break-word;
 }
  .equipment-table {
-  width: 100%;
+ width:600px;
   border-collapse: collapse;
   margin-top: 20px;
   background: white;
@@ -151,7 +151,7 @@ body{
     .eqp{
         background-color: white; 
         position: absolute; 
-        top: 30px; 
+        top: 300px; 
         width: 465px; 
         left : 220px;
         padding: 15px;
@@ -227,6 +227,13 @@ body{
     }
         .subrows{
 width: 320px;
+}
+.equipment-table{
+width:300px;
+}
+.equipment-table th,
+equipment-table td{
+width:130px;
 }
 .year{
     width: 312px;
