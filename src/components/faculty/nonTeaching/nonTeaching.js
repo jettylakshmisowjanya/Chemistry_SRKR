@@ -27,6 +27,14 @@ const NonTeaching = () => {
 
         </div>
 
+        
+
+        <div class="itm">
+            <img className='nti' src={nt2}/>
+            <h4 className='h42'>K.V.Naga Sailaja</h4>
+            <h4 className='hr'>Lab Technician</h4>
+            <h4 className='hr'><div class="pos">DOJ:13-12-2021</div></h4>
+        </div>
 
         <div class="itm">
             <img className='nti' src={nt3}/>
