@@ -129,10 +129,10 @@ export const Navbar = () => {
                 <Link to={"/projects"}>Projects</Link></li>
             <li className={location.pathname === '/books' ? 'active-link' : ''}>
                 <Link to={"/books"}>Books Published</Link></li>
-            <li className={location.pathname === '/equipment' ? 'active-link' : ''}>
-                <Link to={"/equipment"}>Equipment</Link></li>
             <li className={location.pathname === '/events' ? 'active-link' : ''}>
                 <Link to={"/events"}>Events</Link></li>
+            <li className={location.pathname === '/equipment' ? 'active-link' : ''}>
+                <Link to={"/equipment"}>Equipment</Link></li>
               
             </ul>
           </div>
