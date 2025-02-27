@@ -46,8 +46,8 @@ const Home = () => {
         </div>
       </div>
 
-<h2 className='tfh'>
-  We have...
+<h2 className='tfh' style={{marginBottom:'50px'}}>
+  Discover Our Department
 </h2>
 
       <div className='tryy'>
@@ -88,13 +88,17 @@ const Home = () => {
   <h2 className='forh' style={{ textAlign: 'center' }}>Student Corner:</h2>
   </div>
     <div className='elem'>
-      <a href="https://drive.google.com/drive/folders/1dNYZpkKnQ-8pNKwVeA2wVUcXLt-13YDL?usp=drive_link">
+      <a href="https://drive.google.com/drive/folders/1dNYZpkKnQ-8pNKwVeA2wVUcXLt-13YDL?usp=drive_link" target="_blank">
         <div style={{cursor:'pointer'}} target="_blank" className="studentp" >        
             Student Presentations
         </div>
       </a>
-      <div style={{cursor:'pointer'}} className="studente">
-          <Link to="/events">Events</Link>
+      <div className='elem'>
+      <a href="https://drive.google.com/drive/folders/12jJQGB2VgtgUy5Q5hpSViYn7ya--jzpJ?usp=drive_link">
+        <div style={{cursor:'pointer'}} target="_blank" className="studentp" >        
+            Anusandhan Presentations
+        </div>
+      </a>
       </div>
     </div>
   </div>
@@ -102,9 +106,11 @@ const Home = () => {
   <div>
   <h2 className='forh' style={{ textAlign: 'center' }}>Faculty Corner:</h2>
   </div>
+      <a href='https://drive.google.com/drive/folders/1MTxAOsZrMa7Du2clvCFoppbf8zw5TCSa?usp=sharing' target='_blank'>
       <div style={{cursor:'pointer'}} className="facultyl" target="_blank">        
       Faculty Lectures
     </div>
+    </a>
   </div>
 </div>
 <Contact/>

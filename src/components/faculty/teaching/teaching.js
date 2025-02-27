@@ -27,7 +27,7 @@ const Teaching = () => {
       <section className="items" style={{marginTop:'70px'}}>
 
        <div className="item">
-             <img src="https://i.ibb.co/tYVwFVR/che-head.jpg" className="round-image"/>
+             <img src="https://i.ibb.co/tYVwFVR/che-head.jpg" className="roimg"/>
             <h4>Dr.P.Bhavani</h4>
             <h4>Professor</h4>
             <h4><div className="pos">MSc,M.Phil,PhD</div></h4>
@@ -43,7 +43,7 @@ const Teaching = () => {
         </div>
         
         <div className="item" >
-            <img src={src_2} className="round-image"/>
+            <img src={src_2} className="roimg1"/>
             <h4>Dr.Venu Reddy</h4>
             <h4>Professor</h4>
             <h4><div className="pos">M.Sc,PhD</div></h4>
@@ -59,7 +59,7 @@ const Teaching = () => {
         </div>
 
         <div className="item" >
-            <img src={src_3} className="round-image"/>
+            <img src={src_3} className="roimg1"/>
             <h4>Dr.D.Chandra Sekhar</h4>
             <h4>Associate Professor</h4>
             <h4><div className="pos">MSc,MPhil,PhD</div></h4>
@@ -74,7 +74,7 @@ const Teaching = () => {
         </div>
 
         <div className="item">
-            <img src=" https://i.ibb.co/8K8pT2p/1048.jpg "className="round-image"/>
+            <img src=" https://i.ibb.co/8K8pT2p/1048.jpg "className="roimg"/>
             <h4>Dr.B.S.Diwakar</h4>
             <h4>Associate Professor</h4>
             <h4><div className="pos">MSc,PhD</div></h4>
@@ -94,7 +94,7 @@ const Teaching = () => {
 
        
         <div className="item">
-            <img src="https://i.ibb.co/vDzjT98/1188.jpg "className="round-image"/>
+            <img src="https://i.ibb.co/vDzjT98/1188.jpg "className="roimg1"/>
             <h4>Mrs.K.Balageeta </h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">M.Sc</div></h4>
@@ -110,7 +110,7 @@ const Teaching = () => {
 
 
         <div className="item">
-            <img src={src_6}className="round-image"/>
+            <img src={src_6}className="roimg"/>
             <h4>Dr.U.Nagababu</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc,PhD</div></h4>
@@ -129,7 +129,7 @@ const Teaching = () => {
         </div>
   
         <div className="item">
-            <img src={src_7}className="round-image"/>
+            <img src={src_7}className="roimg"/>
             <h4> Mrs.K.Tulasi Bhavani</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc</div></h4>
@@ -145,7 +145,7 @@ const Teaching = () => {
   
     
         <div className="item">
-            <img src={src_8} className="round-image"/>
+            <img src={src_8} className="roimg"/>
             <h4> Dr.Sri.j.Suresh Kumar</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc,B.Ed</div></h4>
@@ -161,7 +161,7 @@ const Teaching = () => {
         </div>
 
         <div className="item">
-            <img src={src_9} className="round-image"/>
+            <img src={src_9} className="roimg"/>
             <h4> Mrs.U.V.Lakshmi</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc</div></h4>
@@ -176,7 +176,7 @@ const Teaching = () => {
         </div>
     
         <div className="item">
-            <img src={src_10} className="round-image"/>
+            <img src={src_10} className="roimg"/>
             <h4>Mrs.Ch.Lakshmi Prasanna</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc</div></h4>
@@ -191,7 +191,7 @@ const Teaching = () => {
         </div>
     
         <div className="item">
-            <img src={src_11} className="round-image"/>
+            <img src={src_11} className="roimg"/>
             <h4>Mrs.S.Prameela Devi</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc</div></h4>

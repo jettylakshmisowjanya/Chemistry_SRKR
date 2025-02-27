@@ -136,6 +136,7 @@ a{
     .itms
     {
         margin: 0 auto;
+        padding: 30px 0;
     }
     .itm{
     border:solid rgb(147, 146, 146) 2px;

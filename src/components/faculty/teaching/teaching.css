@@ -41,16 +41,26 @@ border-radius: 10px;
     font-weight:normal;
     line-height: 15px;
 }
-  .item img{
-      float: left;
-      width:200px;
-      height:100%;
-      object-fit:cover;
-      box-shadow: rgb(5px, 5px, 5px);
-      border-radius: 2px;
-      cursor:pointer;
-      transition: 0.2s ease;
-  }
+.roimg{
+    float: left;
+    width:200px;
+    height:100%;
+    object-fit:cover;
+    box-shadow: rgb(5px, 5px, 5px);
+    border-radius: 2px;
+    cursor:pointer;
+    transition: 0.2s ease;
+}
+.roimg1{
+    float: left;
+    width:200px;
+    height:100%;
+    object-fit:cover;
+    box-shadow: rgb(5px, 5px, 5px);
+    border-radius: 2px;
+    cursor:pointer;
+    transition: 0.2s ease;
+}
   .item img:hover{
       transform: scale(1.04);
   }
@@ -161,7 +171,15 @@ a{
     }
 
 
-    .item img {
+    .roimg {
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        margin-bottom: 10px;
+    } .roimg1 {
         width: 100%; 
         height: 200px;
         object-fit: cover;
@@ -220,10 +238,19 @@ a{
         margin-bottom: 5px;
     }
 
-    .item img {
+    .roimg {
         width: 100%; 
         height: 200px;
         object-fit: cover;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        margin-bottom: 10px;
+    }.roimg1 {
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
         border-radius: 2px;
         cursor: pointer;
         transition: 0.2s ease;
