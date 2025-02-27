@@ -674,6 +674,8 @@ const Publications = () => {
     <div className='pumain'>
         {/* <div class="year">Research Publications:
         </div> */}
+        <h4>Research Publications</h4>
+
         <table className='ptbl' style={{borderCollapse:'collapse',border: '1px solid black'}}>
         <thead>
             <tr>

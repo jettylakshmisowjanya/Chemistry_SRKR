@@ -7,7 +7,7 @@
 
 /* Table Styling */
 .pamain {
-    margin-top: 70px;
+    margin-top: 50px;
     width: 100%;
     overflow-x: auto; /* Enables horizontal scrolling on small screens */
 }
@@ -66,8 +66,13 @@ table tbody tr:nth-child(even) {
     .pamain {
         width: 100%;
         overflow-x: auto;
+        margin-top: 0;
     }
 
+    .pamain h4{
+        margin-bottom: 10px;
+        margin-top: 18px;
+    }
     table th,
     table td {
         padding: 6px;

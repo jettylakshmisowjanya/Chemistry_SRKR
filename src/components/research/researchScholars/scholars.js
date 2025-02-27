@@ -13,6 +13,7 @@ const Scholars = () => {
     <Sidebar/>
   </div>
   <div className='pamain1'>
+  <h4>Research Scholars</h4>
   <table style={{borderCollapse:'collapse',border: '1px solid black'}}>
       <thead>
       <tr>

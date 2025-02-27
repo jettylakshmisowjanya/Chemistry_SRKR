@@ -57,7 +57,7 @@ const Projects = () => {
           .year {
             width: 100%;
             height: 35px;
-            margin-top: 75px;
+            margin-top: 35px;
             padding-left: 10px;
             font-weight: bold;
             align-content: center;
@@ -93,6 +93,7 @@ const Projects = () => {
 
           .prjm {
             margin: 0 auto;
+            margin-top:30px;
           }
 
           @media(max-width: 768px) {
@@ -145,6 +146,9 @@ const Projects = () => {
 
             table th, table td {
               font-size: 12px;
+            }
+            .prjm{
+            margin-top:0;
             }
 
          

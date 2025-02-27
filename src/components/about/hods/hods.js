@@ -43,7 +43,7 @@ const Hods = () => {
         </div>
 
         <div className="ite">
-            <img src={im5}className="round-image"/>
+            <img src={im5}className="round-image1"/>
             <h4 style={{paddingTop: '60px'}}>DR.K.V.Subbaraju</h4>
             <h4>Professor</h4>
             <h4><div className="pos">1984 - 2012</div></h4>

@@ -5,7 +5,7 @@
 }
 
 .pumain{
-     margin-top: 100px;
+     margin-top: 50px;
      overflow-x: auto;
 
 
@@ -28,6 +28,9 @@ table td,table th{
         margin-left:0;
         grid-template-columns: 0 auto;
     }
+    .pumain{
+        margin-top: 70px;;
+    }
 }
 
 
@@ -36,5 +39,12 @@ table td,table th{
         display: grid;
         margin-left:0;
         grid-template-columns: 0 auto;
+    }
+    .pumain{
+        margin-top: 40px;;
+    }
+    .pumain h4{
+        margin-bottom: 10px;
+        
     }
 }

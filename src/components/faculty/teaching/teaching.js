@@ -129,7 +129,7 @@ const Teaching = () => {
         </div>
   
         <div className="item">
-            <img src={src_7}className="roimg"/>
+            <img src={src_7}className="roimg1"/>
             <h4> Mrs.K.Tulasi Bhavani</h4>
             <h4>Assistant Professor</h4>
             <h4><div className="pos">MSc</div></h4>

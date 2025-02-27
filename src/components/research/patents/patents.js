@@ -14,6 +14,7 @@ const Patents = () => {
 </div>
 
 <div className='pamain'>
+<h4>Research Patents</h4>
 <table  style={{borderCollapse: 'collapse', width: '100%', textAlign: 'left', border: '1px solid black'}}>
   <thead>
     <tr>
